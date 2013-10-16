@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leap Year</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css" rel="stylesheet" media="screen">
+    <style>
+      body {padding-top: 50px;}
+      .container {max-width: 400px;}
+    </style>
+  </head>
+  <body>
+  	<div class="container">
+      <h1>Is it a leap year?</h1>
+      <br>
+      <form role="form" id="leapForm">
+        <div class="form-group">
+          <label class="sr-only" for="leapyear"></label>
+          <input type="text" class="form-control" id="inputYear" placeholder="Enter a Year">
+        </div>
+        <button type="submit" class="btn btn-default">Boom</button>
+      </form>
+      <br>
+      <div id="isLeap">
+        <p><strong>Original Year => </strong><span id="originalYear"></span></p>
+        <p><strong>Is Leap? => </strong><span id="leap"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
